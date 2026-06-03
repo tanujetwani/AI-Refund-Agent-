@@ -53,7 +53,8 @@ Backend: FastAPI ,
 Frontend: Streamlit
 
 
-NO need to insert OPEN_API_KEY. I've already hard coded it in agent.py
+Please insert the OPENAI_API_KEY in the file agent.py at line no. 77. I've provided the OPENAI_API_KEY in the email dated 3rd June 2026.
+
 
 
 
