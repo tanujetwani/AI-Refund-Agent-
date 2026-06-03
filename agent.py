@@ -74,9 +74,9 @@ def run_the_agent(order_id:int) -> dict[str, str]:
 
     
 
-    OPENAI_API_KEY=""
+    OPENAI_API=""
 
-    llm = ChatOpenAI(api_key = OPENAI_API_KEY, model = 'gpt-4.1-nano', temperature=0.0)
+    llm = ChatOpenAI(api_key = OPENAI_API, model = 'gpt-4.1-nano', temperature=0.0)
 
      #Creating the agent with the help of tools and llm
 

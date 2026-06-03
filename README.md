@@ -53,6 +53,6 @@ Backend: FastAPI
 Frontend: Streamlit
 
 
-Please insert the OPENAI_API_KEY (I've provided the API key in the email (dated 03-06-2026) where I 've provided the github link for the project) , in line 77 of agent.py
+Please insert the key for OPENAI (I've provided the API key in the email (dated 03-06-2026) where I 've provided the github link for the project) , in line 77 of agent.py
 
 
