@@ -47,10 +47,11 @@ The streamlit UI finally dispalys the  result.
 
 
 Tech Stack:
-Database: SQLITE3
-Ai Framework: Langchain
-Backend: FastAPI
+Database: SQLITE3 ,
+Ai Framework: Langchain ,
+Backend: FastAPI ,
 Frontend: Streamlit
+
 
 NO need to insert OPEN_API_KEY. I've already hard coded it in agent.py
 
