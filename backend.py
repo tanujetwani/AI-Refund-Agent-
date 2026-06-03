@@ -3,6 +3,9 @@ from pydantic import BaseModel ,Field
 from typing import Annotated 
 from agent import run_the_agent,order_exists
 from fastapi import HTTPException
+from dotenv import load_dotenv
+
+
 
 app=FastAPI()
 
@@ -15,6 +18,7 @@ class UserInput(BaseModel):
 @app.post("/chat")
 def  process_refund(data: UserInput):
      
+     load_dotenv()
      #check if the order_id exists
      valid_order=order_exists(data.order_id)
 

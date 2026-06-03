@@ -53,6 +53,6 @@ Backend: FastAPI
 Frontend: Streamlit
 
 
-Please insert the OPENAI_API_KEY below in line 73 of agent.py
+Please insert the OPENAI_API_KEY (I've provided the API key in the email) , in line 77 of agent.py
 
-OPENAI_API_KEY:"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" 
+
